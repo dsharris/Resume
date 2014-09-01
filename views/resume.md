@@ -14,11 +14,11 @@
 ### 40Digits
 #### Software Engineer
 #### 5-12 - Current
-Hired in Springfield Missouri as the 8 employee in the office, i have worked for 40Digits as a software engineer for nearly 2 and a half years. While with the company, i have worked primarily in a backend capacity. On sites ranging from simple wordpress sites, to full blown employee portals. Most projects where team efforts but i did work several on my own. I do mild front-end work laced in to a full schedule of backend work. Most projects are delivered to me as static HTML / CSS, at which point I become responsible for all further work upto and including production level deployment.
+Hired in Springfield Missouri, as the 8 employee in the office, I have worked for 40Digits as a software engineer for nearly 2 and a half years. While with the company, I have worked primarily in a backend capacity. On sites ranging from simple wordpress sites, to full blown employee portals. Most projects where team efforts, but i did work several on my own. I do mild front-end work laced in to a full schedule of backend work. Most projects are delivered to me as static HTML / CSS, at which point I become responsible for all further work upto and including production level deployment.
 
 Technologies:
 - PHP
-- JavaScript
+- JavaScript / NodeJS
 - Mysql
 - Wordpress
 - Codeigniter
@@ -28,13 +28,27 @@ Technologies:
 ### yTen
 #### Software Engineer
 #### 7-11 - 4-12
-Working in a strictly backend capacity, i help maintain and develop mew tools for an inhouse intranet application for a call center written in ColdFusion. I worked on a 3 person team, though mostly working on my onw. I would be verbally given an explination of what was needed and was expexcted to take that idea and bring it to fruition with no further direction.
+Working in a strictly backend capacity, i help maintain and develop new tools for an inhouse application. The application was an intranet for a call center, and was written written in ColdFusion. I worked on a 3 person team, though mostly working on my one. I would be verbally given an explination of what was needed, and was expexcted to take that idea and bring it to fruition with little to no further direction.
 
 Technologies:
 - ColdFusion
 - JavaScript
 - Mysql
 - SVN
+
+### Wired Defense
+#### Senior Engineer
+#### 2009 - Current
+
+My business partner have been working private projects for quite a while now, he maintains the business and financials as well as sales and higher level client commnuication. I take the clients ideas from concepts through wireframes, ocasionaly design though most was outsourced, through development and deplooyment.
+
+Technologies:
+- PHP
+- JavaScript / NodeJS
+- Mysql
+- Git
+- Grunt
+- Twitter Bootstrap
 
 ## Languages, Frameworks & Modules
 
