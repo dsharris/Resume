@@ -23,7 +23,7 @@ Technologies:
 - Grunt
 - Git
 
-### yTen - Software Engineer (7-11 - 4-12)
+### yTen - Software Engineer (8-11 - 3-12)
 Working in a strictly backend capacity, i help maintain and develop new tools for an inhouse application. The application was an intranet for a call center, and was written written in ColdFusion. I worked on a 3 person team, though mostly working on my one. I would be verbally given an explination of what was needed, and was expexcted to take that idea and bring it to fruition with little to no further direction.
 
 Technologies:
@@ -34,7 +34,7 @@ Technologies:
 
 ### Wired Defense - Senior Engineer (2009 - Current)
 
-My business partner have been working private projects for quite a while now, he maintains the business and financials as well as sales and higher level client commnuication. I take the clients ideas from concepts through wireframes, ocasionaly design though most was outsourced, through development and deplooyment.
+My business partner and myself, have been working private projects for quite a while now. He maintains the business and financials as well as sales and higher level client commnuication. I take the clients ideas from concepts through wireframes, ocasionaly design though most was outsourced, through development and deplooyment.
 
 Technologies:
 - PHP
