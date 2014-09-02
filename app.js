@@ -22,8 +22,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', function (req, res) {
-    console.log(process.cwd() + '/views/resume.ejs');
-    fs.readFile( process.cwd() + '/views/resume.ejs', function (err, resume) {
+    console.log( __dirname + '/views/resume.ejs' );
+    fs.readFile( __dirname + '/views/resume.ejs', function (err, resume) {
         res.end(resume.toString());
     });
 });
