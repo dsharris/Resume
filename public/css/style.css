@@ -80,10 +80,32 @@ i.email:before {
 	vertical-align: middle;
 	display: inline-block;
 }
-i.phone:before {
+
+i.pdf {
+	position: absolute;
+	top: 0;
+	right: 3px;
+}
+
+i.pdf:before {
 	content: "\e001";
+	font-size: 3em;
 	vertical-align: middle;
 	display: inline-block;
+}
+
+i.phone:before {
+	content: "\e002";
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.refferences i.email:before {
+	font-size: 24px;
+	margin-left: 5px;
+}
+.refferences i.phone:before {
+	font-size: 12px;
 }
 
 
@@ -100,6 +122,11 @@ body {
 	padding: 30px;
 	margin: 2em auto;
 	color: #333333;
+	position: relative;
+}
+
+a.pdf {
+	color: #000;
 }
 
 h1 {
@@ -109,8 +136,12 @@ h1 {
 	font-weight: bold;
 }
 
+h1 span{
+	font-size: 20px;
+}
+
 h2 {
-	font-weight: 700;
+	font-weight: bold;
 	margin-bottom: 15px;
 	font-size: 20px;
 	border-bottom: 1px solid #CCC;
@@ -144,10 +175,6 @@ h3 span{
 	display: block;
 }
 
-.refferences i.email:before {
-	font-size: 24px;
-	margin-left: 5px;
-}
-.refferences i.phone:before {
-	font-size: 12px;
+article {
+	page-break-inside: avoid;
 }

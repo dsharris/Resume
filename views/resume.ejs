@@ -16,20 +16,32 @@
 </head>
 
 <body>
-	<h1>David S. Harris <i class="email"></i><i class="phone"></i></h1>
+	<% if (!full) { %>
+		<a class="pdf" href="/pdf"><i class="pdf"></i></a>
+	<% } %>
+	<h1>
+		David S. Harris
+		<% if (!!full) { %>
+			<span>(573) 823-7515 &nbsp;&nbsp;&nbsp; david@dsharris.org</span>
+		<% } else { %>
+			<i class="email"></i><i class="phone"></i>
+		<% } %>
+	</h1>
 
-	<h2>Skills</h2>
+	<article class="skills">
+		<h2>Skills</h2>
 
-	<ul>
-		<li>Capible of running a project from post-design through production</li>
-		<li>Effective Team Memeber</li>
-		<li>Effective at running a project solo</li>
-		<li>Capable of working on projects from brochure sites through full scale applications</li>
-		<li>Modular development</li>
-		<li>Use and creation of automation tool</li>
-	</ul>
+		<ul>
+			<li>Capible of running a project from post-design through production</li>
+			<li>Effective Team Memeber</li>
+			<li>Effective at running a project solo</li>
+			<li>Capable of working on projects from brochure sites through full scale applications</li>
+			<li>Modular development</li>
+			<li>Use and creation of automation tool</li>
+		</ul>
 
-	<h2>Previous Employment</h2>
+		<h2>Previous Employment</h2>
+	</article>
 
 	<article class="employer">
 		<h3>40Digits - Software Engineer <span>May 2012 - Current</span></h3>
@@ -92,9 +104,11 @@
 		</ul>
 	</article>
 
-	<h2>Languages, Frameworks &amp; Modules</h2>
+	<article class="languages">
+		<h2>Languages, Frameworks &amp; Modules</h2>
 
-	Javascript, NodeJS, Coldfusion, PHP, MySql, MsSQL, MongoDB, Neo4j, Redis, Express, Underscore, Backbone, jQuery, Hammer.js, Moment.js, Mongoose, Grunt, Gulp, Laravel, Codeigniter, Wordpress, Drupal, mPDF, Git, ...
+		Javascript, NodeJS, Coldfusion, PHP, MySql, MsSQL, MongoDB, Neo4j, Redis, Express, Underscore, Backbone, jQuery, Hammer.js, Moment.js, Mongoose, Grunt, Gulp, Laravel, Codeigniter, Wordpress, Drupal, mPDF, Git, ...
+	</article>
 
 	<article class="refferences">
 		<h2>Refferences</h2>
