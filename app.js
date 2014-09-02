@@ -21,12 +21,7 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', function (req, res) {
-    console.log( __dirname + '/views/resume.ejs' );
-    fs.readFile( __dirname + '/views/resume.ejs', function (err, resume) {
-        res.end(resume.toString());
-    });
-});
+app.use('/', routes);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
