@@ -16,7 +16,7 @@ router.get('/pdf', function (req, res) {
 	var fileName = 'David S Harris - Software Engineer.pdf';
 	phantom.create(function(ph){
 		ph.createPage(function(page) {
-			page.open("http://127.0.0.1:54311/get-full-content", function(status) {
+			page.open("http://dsharris.org/get-full-content", function(status) {
 				page.set('paperSize', {
 					format: 'A4'
 				}, function() {
